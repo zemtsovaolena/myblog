@@ -13,6 +13,7 @@ from sqlalchemy import Table, Column, Integer, ForeignKey
 from sqlalchemy.orm import relationship
 from sqlalchemy.ext.declarative import declarative_base
 import os
+import email_validator
 
 
 app = Flask(__name__)
